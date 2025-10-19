@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Java",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": false,
+    "description": "Java remains the backbone of Old Mutual iWYZE's enterprise insurance systems. Legacy core insurance applications, policy administration systems, and critical business logic are built on Java. The language's robustness, extensive enterprise libraries, and mature ecosystem make it essential for maintaining and extending mission-critical insurance operations. Spring Boot framework powers microservices architecture for scalability and maintainability."
+  },
+  {
+    "name": "Python",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": false,
+    "description": "Python drives data analytics, machine learning models, and automation at iWYZE. Used extensively for claims analytics, fraud detection algorithms, customer segmentation, and predictive modeling for risk assessment. Python's rich ecosystem of data science libraries (Pandas, NumPy, Scikit-learn) enables rapid development of AI-driven insights for personalized insurance products and pricing optimization."
+  },
+  {
+    "name": "JavaScript/TypeScript",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": true,
+    "description": "TypeScript powers the wyzeHUB digital platform's frontend and backend services. Used for building responsive, mobile-first web applications that enable customers to manage policies, submit claims, and conduct vehicle inspections. The type-safety and modern tooling of TypeScript enhance code quality and developer productivity in customer-facing applications."
+  },
+  {
+    "name": "React",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": false,
+    "description": "React is the primary framework for iWYZE's customer-facing digital platforms including wyzeHUB web and mobile applications. Enables component-based architecture for reusable UI elements, ensuring consistent user experience across car, home, and life insurance products. React Native powers cross-platform mobile applications for iOS and Android."
+  },
+  {
+    "name": "Spring Boot",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
+    "isNew": false,
+    "description": "Spring Boot is the de facto standard for building microservices-based insurance applications at iWYZE. Powers RESTful APIs for policy management, claims processing, underwriting services, and integration with Old Mutual Group systems. Convention-over-configuration approach accelerates development while maintaining enterprise-grade security and scalability."
+  },
+  {
+    "name": "Node.js",
+    "ring": "Trial",
+    "quadrant": "Languages & Frameworks",
+    "isNew": true,
+    "description": "Node.js is being evaluated for lightweight, event-driven services in the wyzeHUB platform. Its non-blocking I/O model suits real-time features like claim status updates, live chat support, and notification services. Being trialed for API gateway services and serverless functions to complement existing Java backend infrastructure."
+  },
+  {
+    "name": ".NET Core",
+    "ring": "Assess",
+    "quadrant": "Languages & Frameworks",
+    "isNew": true,
+    "description": ".NET Core is under assessment for specific integration scenarios with Old Mutual Group Microsoft-centric systems. Potential use cases include Azure-native microservices, legacy system integration adapters, and enterprise reporting services. Assessment focuses on interoperability with existing Java infrastructure and Azure cloud capabilities."
+  },
+  {
+    "name": "Amazon Web Services (AWS)",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "AWS is iWYZE's strategic cloud platform. The company completed full migration of over 2,000 servers, 215 applications, 1,786 databases to AWS in 2022. Leverages EC2 for compute, S3 for storage, RDS for databases, and Lambda for serverless computing. AWS enables 50% reduction in downtime, accelerates application testing from months to minutes, and provides foundation for AI/ML-driven insurance innovation."
+  },
+  {
+    "name": "AWS Lambda (Serverless)",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "AWS Lambda powers event-driven, serverless workloads at iWYZE. Used for automated claims notifications, policy renewal reminders, document processing pipelines, and integration workflows. Serverless architecture optimizes costs through pay-per-execution model while providing automatic scaling for peak transaction volumes during month-end policy renewals."
+  },
+  {
+    "name": "Amazon SageMaker",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "Amazon SageMaker is iWYZE's machine learning platform for building, training, and deploying AI models. Powers predictive analytics for claims forecasting, fraud detection, customer churn prediction, and personalized insurance product recommendations. Integrated with Information Fabric data lake to generate real-time insights for pricing optimization and risk assessment."
+  },
+  {
+    "name": "AWS RDS & Aurora",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "AWS Relational Database Service and Aurora host iWYZE's critical insurance databases. Supports policy administration, claims management, customer master data, and transactional systems. Aurora's MySQL and PostgreSQL compatibility enables migration from on-premises databases while providing automated backups, high availability, and performance optimization."
+  },
+  {
+    "name": "Amazon S3",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "Amazon S3 serves as iWYZE's scalable object storage for policy documents, claims attachments, vehicle inspection photos, and data lake storage. Integrates with Information Fabric for analytics workloads. S3 lifecycle policies optimize storage costs while meeting regulatory retention requirements for insurance documentation."
+  },
+  {
+    "name": "Microsoft Azure",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "Microsoft Azure is being trialed for hybrid cloud scenarios and specific workloads requiring integration with Old Mutual Group's Azure-based enterprise systems. Azure Active Directory provides identity management integration. Exploring Azure OpenAI Service for generative AI capabilities in customer service chatbots and document automation."
+  },
+  {
+    "name": "Google Cloud Platform (GCP)",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "GCP is under assessment for specific use cases including BigQuery for large-scale analytics, Google Maps API for location-based services (vehicle inspection centers, emergency services), and Dialogflow for conversational AI. Multi-cloud strategy evaluation considers GCP's AI/ML capabilities and data analytics tools."
+  },
+  {
+    "name": "Docker",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "Docker containers ensure consistency across development, testing, and production environments at iWYZE. Microservices for policy management, claims processing, and customer APIs are containerized, enabling rapid deployment and environment parity. Docker images are stored in AWS ECR and orchestrated through Kubernetes."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "Kubernetes orchestrates iWYZE's containerized microservices on AWS EKS (Elastic Kubernetes Service). Manages auto-scaling for wyzeHUB application during peak usage, rolling updates for zero-downtime deployments, and self-healing for resilient insurance operations. Critical for managing distributed systems across policy, claims, and customer service domains."
+  },
+  {
+    "name": "Jenkins",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "Jenkins automates CI/CD pipelines for iWYZE's application delivery. Orchestrates build, test, and deployment workflows for insurance applications. Integrates with Git repositories, automated testing frameworks, and AWS deployment targets. Plugin ecosystem supports security scanning, code quality checks, and compliance validation in build pipelines."
+  },
+  {
+    "name": "GitLab",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "GitLab is being trialed as a unified DevOps platform for source control, CI/CD, and project management. Evaluation focuses on replacing disparate tools with integrated workflows. GitLab's built-in security scanning, container registry, and Kubernetes integration align with iWYZE's cloud-native transformation strategy."
+  },
+  {
+    "name": "Terraform",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "Terraform manages infrastructure-as-code for iWYZE's AWS resources. Automates provisioning of VPCs, databases, compute instances, and networking infrastructure. Version-controlled infrastructure definitions enable repeatable deployments, disaster recovery automation, and compliance-as-code for regulatory requirements."
+  },
+  {
+    "name": "New Relic / Datadog",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "APM and observability platforms monitor iWYZE's production systems. Provide real-time visibility into application performance, transaction traces, error rates, and user experience metrics. Dashboards track SLAs for claims submission, policy quote generation, and wyzeHUB availability. Alert automation enables proactive incident response."
+  },
+  {
+    "name": "Splunk / CloudWatch",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "Log aggregation and analysis tools for iWYZE's distributed systems. CloudWatch collects logs from AWS services, while Splunk provides advanced analytics for security monitoring, audit trails, and compliance reporting. Essential for investigating claims processing issues, detecting fraud patterns, and maintaining regulatory audit logs."
+  },
+  {
+    "name": "Postman",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "Postman facilitates API development, testing, and documentation for iWYZE's microservices ecosystem. Development teams use collections to test policy APIs, claims APIs, and integration endpoints. Automated API testing in CI/CD pipelines ensures contract compatibility across services."
+  },
+  {
+    "name": "JIRA & Confluence",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "Atlassian suite manages software development lifecycle at iWYZE. JIRA tracks feature development, defects, and operational tasks across Agile squads. Confluence serves as knowledge base for technical documentation, architecture decisions, runbooks, and regulatory compliance documentation."
+  },
+  {
+    "name": "Salesforce / Dynamics CRM",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "CRM platforms are being evaluated to enhance customer relationship management beyond wyzeHUB self-service capabilities. Assessment includes integration with insurance systems for 360-degree customer view, lead management for direct insurance sales, and customer service case management."
+  },
+  {
+    "name": "Agile / Scrum",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": false,
+    "description": "Agile methodologies drive product development at iWYZE. Cross-functional squads (development, testing, product, design) work in 2-week sprints to deliver incremental value. Daily standups, sprint planning, reviews, and retrospectives foster transparency and continuous improvement. Agile practices enable rapid response to market demands and regulatory changes."
+  },
+  {
+    "name": "DevOps",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "DevOps culture unifies development and operations at iWYZE. Automated CI/CD pipelines, infrastructure-as-code, and shared ownership of production systems accelerate time-to-market while maintaining stability. DevOps practices contributed to 50% reduction in business impact hours post-AWS migration."
+  },
+  {
+    "name": "Site Reliability Engineering (SRE)",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "SRE practices are being adopted to balance innovation velocity with system reliability. Error budgets guide risk-taking in releases, SLIs/SLOs/SLAs define service level objectives, and toil automation reduces manual operational work. SRE principles support iWYZE's goal of highly available insurance services."
+  },
+  {
+    "name": "Microservices Architecture",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Microservices architecture enables iWYZE to decompose monolithic insurance systems into independently deployable services. Domain-driven design separates policy management, claims processing, underwriting, and customer services. Microservices facilitate team autonomy, technology diversity, and resilient system design through failure isolation."
+  },
+  {
+    "name": "API-First Design",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "API-first approach treats APIs as first-class products at iWYZE. RESTful APIs expose insurance capabilities to wyzeHUB mobile/web apps, integration partners (brokers, aggregators), and internal services. OpenAPI specifications define contracts, enabling parallel development and ecosystem integration."
+  },
+  {
+    "name": "Test-Driven Development (TDD)",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "TDD practices are being promoted to improve code quality and reduce defects in insurance-critical systems. Writing tests before code implementation ensures coverage of business rules, regulatory requirements, and edge cases. Particularly valuable for complex underwriting logic and claims processing algorithms."
+  },
+  {
+    "name": "Continuous Integration / Continuous Deployment",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "CI/CD pipelines automate software delivery from code commit to production deployment. Automated testing (unit, integration, security, performance) gates releases. Blue-green deployments and canary releases minimize risk. CD practices enable iWYZE to ship features to wyzeHUB multiple times per week."
+  },
+  {
+    "name": "Data-Driven Decision Making",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Data analytics inform product, pricing, and operational decisions at iWYZE. Information Fabric data lake consolidates customer, policy, and claims data. Business intelligence dashboards track KPIs including conversion rates, claims ratios, customer satisfaction, and retention. A/B testing optimizes digital experiences."
+  },
+  {
+    "name": "Zero Trust Security",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Zero Trust security model is being adopted to protect sensitive insurance data. Principles include verify-every-access, least-privilege permissions, and assume-breach mentality. Implementation includes multi-factor authentication, network micro-segmentation, and continuous authentication for applications and APIs."
+  },
+  {
+    "name": "Cloud FinOps",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Cloud Financial Operations (FinOps) practices optimize AWS spending at iWYZE. Cross-functional collaboration between finance, technology, and business teams manages cloud costs. Techniques include rightsizing instances, reserved capacity planning, automated resource shutdown, and cost allocation by business unit or product."
+  },
+  {
+    "name": "Insurance Core Systems (TIA)",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "TIA Denmark's policy administration platform serves as iWYZE's core insurance system. Manages policy lifecycle from quote to renewal, premium calculations, endorsements, and policy servicing. Service-oriented architecture enables integration with wyzeHUB, claims systems, and Old Mutual Group infrastructure."
+  },
+  {
+    "name": "ConnexAI",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "ConnexAI provides AI-powered customer experience platform at iWYZE. Streamlines quoting processes, automates customer interactions, and enhances operational visibility. Partnership has delivered measurable efficiency gains and improved quote-to-policy conversion rates through intelligent automation."
+  },
+  {
+    "name": "Telematics & IoT",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "Telematics devices and IoT sensors are being trialed for usage-based insurance products. Vehicle telemetry enables behavior-based pricing for auto insurance. Smart home sensors support proactive risk mitigation for home insurance. Drone technology (pioneered by iWYZE in 2020) assists with property inspections."
+  },
+  {
+    "name": "Blockchain for Claims",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": true,
+    "description": "Blockchain technology is under assessment for immutable claims records, smart contract automation for policy payouts, and cross-insurer data sharing for fraud prevention. Evaluation considers consortium blockchain models for industry collaboration while addressing scalability and integration challenges."
+  },
+  {
+    "name": "RPA (Robotic Process Automation)",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "RPA bots automate repetitive insurance processes at iWYZE. Use cases include policy document generation, claims status updates, customer data verification, premium calculation reconciliation, and regulatory reporting. RPA improves accuracy, reduces processing time, and allows staff to focus on value-added customer service."
+  },
+  {
+    "name": "OCR & Document AI",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "Optical Character Recognition and Document AI extract data from policy applications, claims forms, vehicle inspection photos, and supporting documents. Machine learning models classify documents, extract key fields, and validate information against databases. Accelerates underwriting and claims adjudication."
+  },
+  {
+    "name": "Fraud Detection ML Models",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "Machine learning models detect fraudulent claims patterns at iWYZE. Analyze historical claims data, customer behavior, and network relationships to flag suspicious activities. Models continuously learn from fraud analyst feedback to improve detection accuracy while minimizing false positives."
+  },
+  {
+    "name": "Chatbots & Virtual Assistants",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": true,
+    "description": "AI-powered chatbots provide 24/7 customer support on iWYZE website and wyzeHUB app. Handle common queries about policy coverage, claims status, document requests, and payment issues. Natural language understanding routes complex cases to human agents. Integration with Amazon Lex provides conversational AI capabilities."
+  },
+  {
+    "name": "Predictive Analytics",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Predictive models forecast customer lifetime value, churn probability, claims likelihood, and cross-sell opportunities. Enable proactive retention campaigns, personalized product recommendations, and optimized marketing spend. Models leverage Information Fabric data including policy history, claims patterns, and customer interactions."
+  },
+  {
+    "name": "Customer Segmentation & Personalization",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": true,
+    "description": "Data-driven customer segmentation targets distinct insurance buyer personas (confident planners, careful controllers, etc.). Personalized marketing, product bundling, and pricing strategies for each segment. wyzeHUB delivers tailored experiences based on customer profile, improving engagement and conversion."
+  }
+]
